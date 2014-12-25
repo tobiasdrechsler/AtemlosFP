@@ -1,7 +1,9 @@
 /* by Tobias Drechsler & Damian Kawalec */
 /* Sektoren */
 header  {height:100vh; width:100%; background-image:url(../images/atemlos_bg.jpg); background-size:cover; background-repeat:no-repeat; background-position:center 0px; background-attachment:fixed;}
-#about  {height:100vh; width:100%; background:grey;}
+#about  {width:100%; text-align:center; padding-top:100px; padding-bottom:100px; background:grey;}
+#portfolio  {width:100%; text-align:center; padding-top:100px; padding-bottom:100px; background:lightgrey;}
 
 /** Inhalt **/
 /* Header-Sektor */
+#intro    {height:100px; width:300px; margin:45vh 0; text-align:left;}
