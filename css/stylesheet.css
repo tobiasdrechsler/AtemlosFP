@@ -22,3 +22,8 @@ p   {font-family:osregular; font-size:14px;}
 
 /* Header-Sektor */
 #intro  {height:100px; margin:45vh 0; text-align:left;}
+
+/* Slideshow */
+/*.carousel-caption>h3 {color:#000000;  }
+.carousel-caption>p  {color:#000000;  }*/
+.daCarousel {max-width: 500px;}
