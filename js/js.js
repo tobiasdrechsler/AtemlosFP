@@ -21,3 +21,14 @@ $(window).scroll(function(){
 		}
 	}
 });
+$(document).ready(function () {
+    $(".albumdata").click(function(){
+        var slide = +($(this).attr('id'));
+        //alert(slide);
+        $("#theCarousel").carousel(slide);
+
+        //alert($(this).attr('id'));
+        //$("#theCarousel").carousel($(this).attr('id'));
+
+    });
+});
