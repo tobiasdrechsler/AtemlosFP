@@ -3,25 +3,30 @@
 @font-face  {font-family:oslight; src:url(../fonts/OpenSans-Light-webfont.woff);}
 @font-face  {font-family:osregular; src:url(../fonts/OpenSans-Regular-webfont.woff);}
 @font-face  {font-family:osbold; src:url(../fonts/OpenSans-Bold-webfont.woff);}
-@font-face  {font-family:logo; src:url(../fonts/CassandraTwo.ttf);}
+
+/* Navi */
+#nav_logo   {font-family:osbold; font-size:30px; color:black;}
 
 /* Sektoren */
-header  {height:100vh; width:100%; background-image:url(../images/atemlos_bg.jpg); background-size:cover; background-repeat:no-repeat; background-position:center 0px; background-attachment:fixed; z-index:9999;}
+header  {height:100vh; width:100%; background-image:url(../images/atemlos_bg1.jpg); background-size:cover; background-repeat:no-repeat; background-position:center 50px; background-attachment:fixed; z-index:9999;}
 section {padding-top:100px; padding-bottom:100px; width:100%; }
 .light  {background:#fafafa;}
 .dark   {background:#efefef;}
 #about  {-webkit-animation-delay: 1s;}
 
-/** Inhalt **/
-.heading    {width:100%; height:60px; font-family:osbold; font-size:48px; text-align:center; margin-bottom:50px;}
-.heading:before {width:50px; height:3px; content:""; background-color:black; display:inline-block; margin-bottom:14px; margin-right:25px; }
-.heading:after {width:50px; height:3px; content:""; background-color:black; display:inline-block; margin-bottom:14px; margin-left:25px; }
-.zweiteswort   {font-family:oslight;}
-.heading2   {font-family:osbold; font-size:30px; text-align:left; margin-bottom:10px; }
+/* Inhalt */
+.page-header    {width:100%; height:60px; font-family:osbold; font-size:48px; text-align:center;}
+.page-header:before {width:50px; height:3px; content:""; background-color:black; display:inline-block; margin-bottom:14px; margin-right:25px; }
+.page-header:after {width:50px; height:3px; content:""; background-color:black; display:inline-block; margin-bottom:14px; margin-left:25px; }
+small   {font-family:oslight; font-size:48px;}
+.heading   {font-family:osbold; font-size:30px; text-align:left; margin-bottom:10px; }
+.heading_sm {font-family:oslight;}
 p   {font-family:osregular; font-size:14px;}
 
 /* Header-Sektor */
-#intro  {height:100px; margin:45vh 0; text-align:left;}
+#intro  {margin-top:70vh; font-family:osbold; font-size:60px; color:white;}
+#intro2 {margin-top:-10px; font-family:oslight; font-size:30px; color:white; margin-bottom:50px;}
+#more   {font-family:oslight; font-size:24px; color:white; text-decoration:overline;}
 
 /* Slideshow */
 /*.carousel-caption>h3 {color:#000000;  }
