@@ -34,3 +34,5 @@ p   {font-family:osregular; font-size:14px;}
 /*.carousel-caption>h3 {color:#000000;  }
 .carousel-caption>p  {color:#000000;  }*/
 .daCarousel {max-width: 500px; text-align: center;}
+
+.thead {font-family:osbold; }
