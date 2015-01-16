@@ -12,8 +12,8 @@ header  {height:100vh; width:100%; background-image:url(../images/atemlos_bg1.jp
 section {padding-top:100px; padding-bottom:100px; width:100%; }
 .light  {background:#fafafa;}
 .dark   {background:#efefef;}
-#about  {-webkit-animation-delay: 1s;}
-#aboutsm  {-webkit-animation-delay: 1s;}
+.delay  {-webkit-animation-delay: 0.7s;}
+footer  {height:50px; padding-top:15px;}
 
 /* Inhalt */
 .page-header    {width:100%; height:60px; font-family:osbold; font-size:48px; text-align:center;}
@@ -29,6 +29,10 @@ p   {font-family:osregular; font-size:14px;}
 #intro  {margin-top:70vh; font-family:osbold; font-size:60px; color:white;}
 #intro2 {margin-top:-10px; font-family:oslight; font-size:30px; color:white; margin-bottom:50px;}
 #more   {font-family:oslight; font-size:24px; color:white; text-decoration:overline;}
+
+/* Footer */
+#f_name     {font-family:osbold;}
+#f_authoren {font-family:oslight;}
 
 /* Slideshow */
 /*.carousel-caption>h3 {color:#000000;  }

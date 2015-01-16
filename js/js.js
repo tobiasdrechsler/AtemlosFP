@@ -1,34 +1,16 @@
-$.fn.is_on_screen = function(){
-    var win = $(window);
-    var viewport = {
-        top : win.scrollTop(),
-        left : win.scrollLeft()
-    };
-    viewport.right = viewport.left + win.width();
-    viewport.bottom = viewport.top + win.height();
- 
-    var bounds = this.offset();
-    bounds.right = bounds.left + this.outerWidth();
-    bounds.bottom = bounds.top + this.outerHeight();
- 
-    return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
-};
- 
-$(window).scroll(function(){ 
-	if( $('#about').length > 0 ) { 
-		if( $('#about').is_on_screen() ) { 
-			$('#about').addClass('animated flipInX');
-		}
-	}
-});
-$(document).ready(function () {
-    $(".albumdata").click(function(){
-        var slide = +($(this).attr('id'));
-        //alert(slide);
-        $("#theCarousel").carousel(slide);
+$('#about').css('opacity',0).one('inview', function(isInView){
+                if (isInView) {$('#about').css('opacity',1).addClass('animated flipInX');}
+                });
 
-        //alert($(this).attr('id'));
-        //$("#theCarousel").carousel($(this).attr('id'));
+$('#alben').css('opacity',0).one('inview', function(isInView){
+                if (isInView) {$('#alben').css('opacity',1).addClass('animated flipInX');}
+                });
 
-    });
-});
+$('#konzerte').css('opacity',0).one('inview', function(isInView){
+                if (isInView) {$('#konzerte').css('opacity',1).addClass('animated flipInX');}
+                });
+
+$('#kontakt').css('opacity',0).one('inview', function(isInView){
+                if (isInView) {$('#kontakt').css('opacity',1).addClass('animated flipInX');}
+                });
+
